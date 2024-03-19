@@ -78,3 +78,77 @@ console.log('> existe x antes do bloco? ', x)
 console.log('> existe x depois do bloco? ', x)
 
 
+// const e let são locais e só funcionam no escopo onde foi criada
+
+let y = 1
+
+{
+  let y = 0
+  console.log('> existe y ', y)
+}
+
+console.log('> existe y depois do bloco? ', y)
+
+
+// Variáveis e tipos de dados
+// Declaração or declaration
+var name 
+
+// assigment or atribuição de valores
+
+name = "Diego"
+
+// Que tipo de dado foi colocado na variável 
+
+console.log(typeof name)
+
+// agrupamento de declarações
+
+let age, isHuman
+
+age = 18
+isHuman = true
+
+// Multíplos argumentos na função
+console.log(name, age, isHuman)
+
+// Escrita de texto + variáveis
+
+// concatenando valores
+console.log('O ' + name + ' tem ' + age + ' anos.')
+
+// Interporlando valores com template literals or template strings
+
+console.log(`O ${name} tem ${age} anos.`)
+
+
+// Objects
+
+const person = {
+  name: "Diego",
+  age: 21,
+  weight: 83.3,
+  isAdmin: true
+}
+
+console.log(person.name)
+
+console.log(`${person.name} tem ${person.age} anos`)
+
+// Array
+
+const animals = [
+  'Lion', // 0 
+  'Monkey', // 1
+  'Cat', // 2
+  {
+    name: 'Turtle',
+    age: 4
+  }
+]
+
+// Acessar valores
+console.log(animals[0])
+console.log(animals.length)
+console.log(animals[3].name)
+
