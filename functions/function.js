@@ -1,18 +1,10 @@
-/*
-  Function() constructor
+// Manipulando Arrays
 
-  * Expressão new
-  * Criar um novo objeto
-  * This keyword
-*/
+let techs =["html", "css", "js"]
 
-function Person(name) {
-  this.name = name
-  this.walk = function () {
-    return this.name +" Está andando"
-  }
-}
-const diego = new Person("Diego")
-const joao = new Person("Joao")
-console.log(diego.walk())
-console.log(joao.walk())
+// Adicionar um item no fim
+// adicionar um item no começo
+// remover do fim
+// pegar somente alguns elementos do array
+// remover 1 ou mais itens em qualquer posição do array
+// encontrar a posição de um elemento no array

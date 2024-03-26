@@ -122,3 +122,52 @@ const diego = new Person("Diego")
 const joao = new Person("Joao")
 console.log(diego.walk())
 console.log(joao.walk())
+
+
+// Transformando String e Números
+
+let string = "123"
+console.log(Number(string))
+
+let number = 321
+console.log(String(number))
+
+// Manipulando Strings e Números
+
+// Contar quantos caracteres tem uma palavra e quantos dígitos tem um número
+
+let word = "paralelepipedo"
+console.log(word.length)
+
+let number = 1234
+console.log(String(number).length)
+
+
+// Manipulando Strings e Números
+
+// Transformar um número quebrado com 2 casas decimais e trocar ponto por vírgula
+
+let number = 2324.2523
+console.log(number.toFixed(2).replace(".",","))
+
+
+let word = "Programar é muito foda"
+
+console.log(word.toLowerCase())
+console.log(word.toUpperCase())
+
+
+// Verificando se alguma palavra está inclusa na String
+
+let pharse = "Eu vi mamae oxum na cachoeira sentada na beira do rio"
+
+console.log(pharse.includes("sentada"))
+
+// Basta colocar o new
+
+let myArray = new Array("a", "b", "c")
+console.log(myArray)
+
+// Para contar os elementos de um array
+
+console.log(["a", "b", "c"].length)
