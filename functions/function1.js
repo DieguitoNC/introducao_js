@@ -171,3 +171,152 @@ console.log(myArray)
 // Para contar os elementos de um array
 
 console.log(["a", "b", "c"].length)
+
+
+
+// Manipulando Arrays
+
+let techs = ["html", "css", "js"]
+
+// Adicionar um item no fim
+
+techs.push("nodejs")
+
+// adicionar um item no começo
+techs.unshift("sql")
+
+// remover do fim
+
+//techs.pop()
+
+// remover do começo
+
+//techs.shift()
+
+// pegar somente alguns elementos do array
+
+//console.log(techs.slice(1,3))
+
+// remover 1 ou mais itens em qualquer posição do array
+
+//techs.splice(0,2)
+
+// encontrar a posição de um elemento no array
+
+let index = techs.indexOf("html")
+techs.splice(index,1)
+
+console.log(techs)
+
+
+
+//Expressão
+let number = 1;
+
+(function() {
+  console.log("alo")
+})()
+
+//Operador binário
+let number = 1
+
+console.log(number + 1)
+
+//Operador Unário
+let number = 1
+
+console.log(++ number)
+console.log(typeof number)
+
+
+/*
+
+    new
+
+    *left-hand-side expreession
+    *criar um novo objeto
+*/
+
+let names = new String("Diego")
+
+let age = new Number(21)
+
+console.log(names, age)
+
+/*
+
+    Operadores unários
+    typeof
+    delete
+
+*/
+
+const person = {
+  name:"Diego",
+  age: 21,
+}
+
+delete person.age
+console.log(person)
+
+console.log(typeof("Diego"))
+
+
+/*
+
+    Operadores unários
+    typeof
+    delete
+
+*/
+
+const person = {
+  name:"Diego",
+  age: 21,
+}
+
+delete person.age
+console.log(person)
+
+console.log(typeof("Diego"))
+
+
+/*
+
+    Operadores de comparação
+    
+    Igualdade -> ==
+    Diferença !=
+
+*/
+
+let one = 1
+let two = 2
+
+
+console.log(one == 1)
+console.log(two == '2')
+
+
+console.log(one != 1)
+console.log(two != 2)
+
+
+/*
+
+    Operadores de comparação
+    
+    Estrutamente igual ===
+    Estritamente diferente !==
+
+*/
+
+let one = 1
+let two = 2
+
+console.log(one === "1")
+console.log(one === 1)
+
+console.log(two !== "2")
+console.log(two !== 2)
+
